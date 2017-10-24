@@ -483,7 +483,7 @@ NSOperationQueue *taskQueue;
     NSString * respStr = [NSNull null];
     NSString * rnfbRespType = @"";
 
-    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
+    //[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
 
     if(respInfo == nil)
     {
